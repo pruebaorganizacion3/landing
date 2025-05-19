@@ -7,13 +7,22 @@
     body {
       font-family: Arial, sans-serif;      
       background-color: #fff;
-      padding: 40px;
-      text-align: center;
+      witdh:auto;
+      
+      
+      
     }
+
     h1 {
       color: #333;
       background-image: url("verge.png");
       height: 199px;
+    }
+    h2{
+      color:#fff; 
+    }
+    h3{
+      color: #7030a0;
     }
     footer {
       background-image: url("foot_verge.png");
@@ -35,19 +44,72 @@
     a:hover {
       text-decoration: underline;
     }
+      .titulo-barras {
+    text-align: center;
+    background-color: #7030a0;
+    padding: 10px 0;
+    margin-top: -23px;
+    color:#fff;
+  }
+  .titulo-barras hr {
+    
+    border: none;
+    margin: 10px 0;
+  }
+ 
+  .titulo-barras h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+   .card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .card {
+      max-width: 400px;
+    
+  }
+table{
+  display:flex;
+  justify-content: center;
+  border-spacing: 0px, 0px, 10px, 10px;
+}
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .card h3 {
+    margin-top: 20px;
+  }
   </style>
 </head>
 <body>
   <h1></h1>
-  Datasets
-  <ul>
-    <li><a href="https://github.com/VERGE-PROJECT/PCDataset" target="_blank">PCDataset</a></li>
-    <li><a href="https://github.com/VERGE-PROJECT/Space-Time-User-Distribution-Dataset" target="_blank">Space Time User Distribution Dataset</a></li>
-  </ul>
-  Otros
-  <ul>
-
-  </ul>
+  <div class="titulo-barras">
+    <hr>
+      <h2>DATASETS</h2>
+   <hr>
+  </div>
+</div>
+<table>
+  <th>
+  <a href="https://github.com/VERGE-PROJECT/PCDataset" class="card-link">
+  <div class="card">
+    <img src="ai-generated-8540921_1280.jpg" alt="PC Dataset">
+    <h3>PC Dataset</h3>
+  </div></a>
+  </th>
+  <th>
+  <a href="https://github.com/VERGE-PROJECT/Space-Time-User-Distribution-Dataset" class="card-link">
+  <div class="card">
+    <img src="ai-generated-8540921_1280.jpg" alt="Space Time User Distribution Dataset">
+    <h3>Space Time User Distribution Dataset</h3>
+  </div></a>
+  </th>
+</table>
+    
   <footer>
 
   </footer>
